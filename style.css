@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    background-image: url('https://cdn.lowgif.com/full/592d0315e89c1337-transparent-snow-animated-gif.gif');
+    background-size: cover;
+}
+
+.santaContainer {
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: rotate(10deg);
+    animation: nod 4s infinite;
+}
+
+@keyframes nod {
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+
+.santa {
+    position: relative;
+    top: 165px;
+    left: 95px;
+}
+
+.beard {
+    background-color: white;
+    width: 220px;
+    height: 220px;
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(-135deg);
+}
+
+.head {
+    position: relative;
+    background-color: #fdd9c3;
+    width: 155px;
+    height: 60px;
+    bottom: 180px;
+    left: 31px;
+    border-radius: 35px;
+}
+
+.hat {
+    position: relative;
+    background-color: #ff1144;
+    width: 150px;
+    height: 150px;
+    bottom: 420px;
+    left: 35px;
+    border-radius: 0 200px 0 0;
+}
+
+.bottom {
+    position: relative;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    top: 140px;
+    right: 25px;
+}
+
+.top {
+    position: relative;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    bottom: 65px;
+    right: 35px;
+    border-radius: 50%;
+}
+
+.eye-one, .eye-two {
+    width: 30px;
+    height: 15px;
+    border-top: 8px solid #262626;
+    border-radius: 30px 30px 0 0;
+    position: relative;
+}
+
+.eye-one {
+    left: 32px;
+    top: 20px;
+}
+
+.eye-two {
+    bottom: 3px;
+    left: 92px;
+}
+
+.nose {
+    position: relative;
+    background-color: #fbd1b6;
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+    left: 60px;
+}
+
+.mouth {
+    position: relative;
+    background-color: #262626;
+    width: 40px;
+    height: 20px;
+    border-radius: 0 0 20px 20px;
+    top: 3px;
+    left: 57px;
+    opacity: 0.8;
+}
